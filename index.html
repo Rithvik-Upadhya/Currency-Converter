@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Currency Converter</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <section>
+            <div id="cc_container">
+                <h1 id="cc-title">Currency <br><span>Converter</span></h1>
+                <p>Never have to google that again.</p>
+                <div id="converter">
+                    <input type="number" min="0" value="1" id="cc-input">
+                    <div id="cc-group">
+                        <select name="cc-from" id="cc-from">
+                        </select>
+                        <span>to</span>
+                        <select name="cc-to" id="cc-to">
+                        </select>
+                    </div>
+                </div>
+                <hr>
+                <p id="cc-error"></p>
+                <p id="cc-answer"></p>
+                <button id="cc-btn">Convert</button>
+            </div>
+        </section>
+        <script src="index.js"></script>
+    </body>
+</html>

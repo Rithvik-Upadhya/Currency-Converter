@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Currency Converter",
+    "version": "1.0",
+  
+    "description": "Never have to google that again.",
+    "homepage_url": "https://github.com/Rithvik-Upadhya/Currency-Converter",
+    "icons": {
+      "48": "images/favicon-48.png",
+      "96": "images/favicon-96.png"
+    },
+  
+    "browser_action": {
+      "default_icon": "images/favicon-96.png",
+      "default_title": "Currency Converter",
+      "default_popup": "index.html"
+    }
+  }
+  
